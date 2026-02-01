@@ -1,0 +1,4 @@
+.env
+Client\authentication-system\package.json
+Server\node_modules
+Client\authentication-system\node_modules

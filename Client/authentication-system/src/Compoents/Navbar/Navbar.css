@@ -1,0 +1,51 @@
+.navbar {
+  height: 60px;
+  background: #111827;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.logout-btn {
+  background: #791818;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 10rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.logout-btn:hover {
+  background: #dc2626;
+}
+
+/* .logout-btn-expand {
+
+} */
+
+.expand-list{
+  position: absolute;
+  top: 1rem;
+  right: 0;
+  background: #6d6868;
+  margin-right: 2rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  width: 8rem;
+  height: 5rem;
+}
+
+.expand-list li{
+width: 100%;
+}
+
+.login-item{
+  font-size: 1.2rem;
+}
